@@ -24,7 +24,6 @@ spec:
   selector:
     matchLabels:
       app: hello-python31
-  minReadySeconds: 5
   strategy:
     type: RollingUpdate
     rollingUpdate:

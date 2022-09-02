@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, this is Kubernetes demo on 2 Sep 12:59"
+    return "Hello, this is Kubernetes demo on 2 Sep 2:14"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')

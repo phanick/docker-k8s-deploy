@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: hello-python31
-        image: phanick/hello-python31:${env.BUILD_NUMBER}
+        image: phanick/hello-python31:12
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
